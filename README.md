@@ -1,7 +1,7 @@
 # YouTube Playlist Backup
 
 Available here:
-https://jolantahuba.github.io/YT-Backup/
+
 
 ## About
 Simple application that allows to export information about the videos in YouTube playlist.  
@@ -25,7 +25,7 @@ See [How to change playlist privacy setting?](https://support.google.com/youtube
 
 ## Setup (self-hosting)
 To run this project locally you need to create your own **Google API key**. See: [Creating API keys](https://cloud.google.com/docs/authentication/api-keys#creating_an_api_key).  
-Then, go to [js/config.js](https://github.com/jolantahuba/YT-Backup/blob/192c1de2aecd48a1f699adee499f9afa664890aa/js/config.js#L1) file and change `API_KEY` value to your generated key:  
+Then, go to [js/config.js] file and change `API_KEY` value to your generated key:  
 `const API_KEY = 'your_api_key';`
 
 ## Technologies
